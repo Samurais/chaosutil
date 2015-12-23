@@ -38,6 +38,9 @@ window.isMobile = {
     Windows: function() {
         return /IEMobile/i.test(this.ua);
     },
+    Macintosh: function(){
+        return /macintosh/i.test(this.ua);
+    },
     any: function() {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
     }
