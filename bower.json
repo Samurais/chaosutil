@@ -5,6 +5,7 @@
     "Samurais <hailiang.hl.wang@gmail.com>"
   ],
   "description": "common helpers in FE",
+  "version": "1.0.0",
   "main": "util.js",
   "moduleType": [],
   "keywords": [
